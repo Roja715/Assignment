@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Map Example</title>
+</head>
+<body>
+
+
+
+    <h2>Client-Side Image Map Example</h2>
+
+    <!-- usemap attribute connects the image with the map -->
+    <img src="food.webp" alt="Food Image" usemap="#foodmap" width="400">
+
+    <map name="foodmap">
+
+        <!-- Clickable area for Momo -->
+        <!-- coords define the rectangular area on the image -->
+        <area shape="rect" coords="220,120,380,320" href="momo.html" alt="Momo">
+
+        <!-- Clickable area for Pani Puri -->
+        <area shape="rect" coords="30,120,180,320" href="panipuri.html" alt="Pani Puri">
+
+    </map>
+
+    <hr>
+
+    <h2>Server-Side Image Map Example</h2>
+
+    <!-- ismap attribute sends click coordinates to the server -->
+    <a href="server-script.cgi">
+        <img src="Nature.jpg" ismap alt="Server-Side Image Map" width="400">
+    </a>
+
+</body>
+</html>
+
