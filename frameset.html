@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frameset Example - Rows and Columns</title>
+</head>
+
+<!-- Frameset replaces <body> -->
+<frameset rows="40%,60%">
+    <!-- Top row: navigation menu -->
+    <frame src="menu.html" name="menuFrame" title="Navigation Menu">
+
+    <!-- Bottom row: divided into two columns -->
+    <frameset cols="25%,75%">
+        <!-- Left column: sidebar menu -->
+        <frame src="sidebar.html" name="sideMenuFrame" title="Sidebar Menu">
+
+        <!-- Right column: main content -->
+        <frame src="home.html" name="mainContentFrame" title="Main Content">
+    </frameset>
+
+</frameset>
+
+</html>
