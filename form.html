@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form action="submit_form.html" method="get" target="blank">
+        <!-- Text input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <!-- Checkboxes -->
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> Java
+        <br><br>
+
+        <!-- Dropdown / Select -->
+        <label>Country:</label>
+        <select>
+            <option>India</option>
+            <option>Nepal</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
